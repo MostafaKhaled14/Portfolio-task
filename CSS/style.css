@@ -1,0 +1,276 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.clr{
+    clear: both;
+}
+
+.heading p{
+    background-image: url(../images/dots.png);
+    left: 25%;
+}
+
+.fw-bolder{
+    font-weight: 900 !important;
+}
+
+:root{
+    --co-white:#ffffff;
+    --bg-main:#1c1c1c;
+    --bg-main2:#f7f7f7;
+    --bg-icon:#00000056;
+    --co-main:#3b3b3b;
+    --co-main2:#748182;
+}
+
+.bg-whitee{
+    background-color: var(--co-white);
+}
+
+.bg-main{
+    background-color: var(--bg-main);
+}
+
+.bg-main2{
+    background-color: var(--co-main);
+}
+
+.bg-main3{
+    background-color: var(--bg-main2);
+}
+
+.bg-icon{
+    background-color: var(--bg-icon);
+}
+
+.co-white{
+    color: var(--co-white);
+}
+
+.co-main{
+    color: var(--co-main);
+}
+
+.co-main2{
+    color: var(--co-main2);
+}
+.co-main3{
+    color: var(--bg-main);
+}
+/*  */
+/*  */
+.navbar .nav{
+    --bs-nav-link-hover-color: var(--bg-main);
+}
+
+.navbar .navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar .navbar-toggler{
+    box-shadow: none;
+}
+
+.navbar .act .active{
+    color: var(--bg-main);
+    background-color: var(--co-white);
+}
+
+.navbar .act{
+    transition: 0.5s;
+    border-bottom: 3px solid transparent;
+    width: fit-content;
+}
+
+.navbar .act:has( .active){
+    border-bottom: 3px solid var(--bg-main);
+}
+/*  */
+/*  */
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home h1{
+    font-size: 3rem;
+}
+
+.home .move span::after{
+    content: "Larry Daniels ";
+    position: absolute;
+    font-weight:bold;
+    animation-name: move;
+    animation-duration: 6s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    border-right: 0.25rem solid;
+}
+
+@keyframes move { 
+    1%{content: "Mostafa Khaled";} 2%{content: "Mostafa Khale";} 3%{content: "Mostafa Khal";} 4%{content: "Mostafa Kha";} 5%{content: "Mostafa Kha";} 6%{content: "Mostafa Kh";} 7%{content: "Mostafa K";} 8%{content: "Mostafa";} 9%{content: "Most";} 10%{content: "Most";} 11%{content: "Mos";} 12%{content: "Mo";} 13%{content: "M";} 14%{content: "";} 15%{content: "D";} 16%{content: "De";} 17%{content: "Dev";} 18%{content: "Deve";} 19%{content: "Devel";} 20%{content: "Develo";} 21%{content: "Develop";} 22%{content: "Develope";} 23%{content: "Developer";} 24%{content: "Developer";} 25%{content: "Developer";} 26%{content: "Developer";} 27%{content: "Developer";} 28%{content: "Developer";} 29%{content: "Developer";} 30%{content: "Developer";} 31%{content: "Developer";} 32%{content: "Developer";} 33%{content: "Developer";} 34%{content: "Developer";} 35%{content: "Developer";} 36%{content: "Developer";} 37%{content: "Developer";} 38%{content: "Develope";} 39%{content: "Develop";} 40%{content: "Develo";} 41%{content: "Devel";} 42%{content: "Deve";} 43%{content: "Dev";} 44%{content: "De";} 45%{content: "D";} 46%{content: "";} 47%{content: "D";} 48%{content: "De";} 49%{content: "Des";} 50%{content: "Desi";} 51%{content: "Desig";} 52%{content: "Design";} 53%{content: "Designe";} 54%{content: "Designer";} 55%{content: "Designer";} 56%{content: "Designer";} 57%{content: "Designer";} 58%{content: "Designer";} 59%{content: "Designer";} 60%{content: "Designer";} 61%{content: "Designer";} 62%{content: "Designer";} 63%{content: "Designer";} 64%{content: "Designer";} 65%{content: "Designer";} 66%{content: "Designer";} 67%{content: "Designer";} 68%{content: "Designe";} 69%{content: "Design";} 70%{content: "Desig";} 71%{content: "Desi";} 72%{content: "Des";} 73%{content: "De";} 74%{content: "De";} 75%{content: "D";} 76%{content: "";} 77%{content: "M";} 78%{content: "Mo";} 79%{content: "Mos";} 80%{content: "Most";} 81%{content: "Mostafa";} 82%{content: "Mostafa K";} 83%{content: "Mostafa Kh";} 84%{content: "Mostafa Kha";} 85%{content: "Mostafa Kha";} 86%{content: "Mostafa Khal";} 87%{content: "Mostafa Khale";} 88%{content: "Mostafa Khaled";} 89%{content: "Mostafa Khaled";} 90%{content: "Mostafa Khaled";} 91%{content: "Mostafa Khaled";} 92%{content: "Mostafa Khaled";} 93%{content: "Mostafa Khaled";} 94%{content: "Mostafa Khaled";} 95%{content: "Mostafa Khaled";} 96%{content: "Mostafa Khaled";} 97%{content: "Mostafa Khaled";} 98%{content: "Mostafa Khaled";} 99%{content: "Mostafa Khaled";} 100%{content: "Mostafa Khaled";}
+}
+/*  */
+/*  */
+.about .progress{
+    height: 1.9rem;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+}
+
+.about .btn-primary:hover{
+    color: var(--bg-main);
+    background-color: var(--co-white);
+}
+
+.about .btn-secondary:hover{
+    color: var(--co-white);
+    background-color: var(--bg-main);
+}
+/*  */
+/*  */
+.services .box-sh{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px -8px;
+}
+
+.services .box-sh i{
+    transition: 0.5s;
+}
+
+.services .box-sh:hover i{
+    color: var(--co-white);
+    background-color: var(--bg-main);
+}
+/*  */
+/*  */
+.portfolio .nav-pills .nav-link.active{
+    color: var(--bg-main);
+    background-color: var(--co-white);
+    border-bottom: #1c1c1c 0.15rem solid;
+}
+
+.portfolio .nav-link:hover {
+    color: var(--bg-main);
+}
+
+.portfolio .my-img{
+    background-image: url(../images/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio .my-img2{
+    background-image: url(../images/2.jpg);
+}
+.portfolio .my-img3{
+    background-image: url(../images/3.jpg);
+}
+.portfolio .my-img4{
+    background-image: url(../images/4.jpg);
+}
+.portfolio .my-img5{
+    background-image: url(../images/5.jpg);
+}
+.portfolio .my-img6{
+    background-image: url(../images/6.jpg);
+}
+
+.portfolio .my-p>h4{
+    transition: 0.5s;
+}
+
+.portfolio .my-img:hover .my-p>h4{
+    transform: translateY(20px);
+}
+
+.portfolio .my-p{
+    transform: translateY(10px);
+    transition: 0.5s;
+}
+
+.portfolio .my-img:hover .my-p{
+    transform: translateY(0);
+    opacity: 1 !important;
+} 
+
+.portfolio .my-p i:hover{
+    color: var(--bg-main);
+    background-color: var(--co-white);
+}
+/*  */
+/*  */
+.testimonials .carousel-item{
+    height: 350px;
+}
+
+.testimonials img{
+    width: 6rem;
+    height: 6rem;
+}
+
+.testimonials .carousel-indicators [data-bs-target]{
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: var(--bg-main);
+}
+/*  */
+/*  */
+.our-team .icons{
+    transform: scale(0.5) rotatey(180deg) ;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.our-team .all-cont:hover .img-cont>.img-bg>.icons {
+    transform: scale(0.96) rotatey(360deg);
+    opacity: 0.95;
+}
+
+.our-team .img-bg img{
+    transition: 0.5s;
+}
+
+.our-team .img-bg:hover img{
+    transform: scale(1.2);
+}
+
+.our-team .icons i{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-top: 0.75rem;
+}
+
+.our-team .icons i:hover{
+    color: var(--bg-main);
+    background-color: var(--co-white);
+}
+/*  */
+/*  */
+.contact-us .my-hov i{
+    transition: 0.5s;
+}
+
+.contact-us .my-hov:hover i{
+    color: var(--co-white);
+    background-color: var(--bg-main);
+}
+
+.contact-us .my-h{
+    height: 2.5rem;
+    outline: 0;
+}
+
+.contact-us .my-h-area{
+    height: 10rem;
+}
+
+.contact-us .my-b-hov{
+    transition: 0.5s;
+}
+
+.contact-us .my-b-hov:hover{
+    color: var(--bg-main);
+    background-color: var(--co-white);
+}
+/*  */
